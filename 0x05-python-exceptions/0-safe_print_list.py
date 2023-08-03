@@ -7,12 +7,12 @@ def safe_print_list(my_list=[], x=0):
         for a in range(0, x):
             print(f"{my_list[a]}", end="")
         print()
+
         return(x)
     except IndexError:
         b = 0
         for a in my_list:
             b = b + 1
-        for c in range(0, b):
-            print(f"{my_list[c]}", end="")
         print()
+
         return(b)
