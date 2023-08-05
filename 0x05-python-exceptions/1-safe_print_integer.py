@@ -1,8 +1,7 @@
 #!/usr/bin/pyhon3
 def safe_print_integer(value):
     try:
-        int(value)
-        print(value)
+        print("{:d}".format(value))
 
         return True
 
