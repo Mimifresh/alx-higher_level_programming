@@ -1,5 +1,7 @@
-#!/usr/bin/pyhon3
+#!/usr/bin/python3
+
 """print integers"""
+
 
 def safe_print_integer(value):
     try:
